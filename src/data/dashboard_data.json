@@ -1,0 +1,509 @@
+{
+  "study_metadata": {
+    "title": "COVID vaccination and post-infection cancer signals: Evaluating patterns and potential biological mechanisms",
+    "authors": ["Charlotte Kuperwasser", "Wafik S. El-Deiry"],
+    "publication_date": "January 03, 2026",
+    "journal": "Oncotarget, 2026, Vol. 17, pp: 1-29",
+    "study_period": "January 2020 - October 2025"
+  },
+  
+  "key_statistics": {
+    "total_publications": 69,
+    "total_patients_studied": 333,
+    "countries_represented": 27,
+    "article_level_reports": 66,
+    "population_level_studies": 3
+  },
+  
+  "study_types": {
+    "case_reports": {
+      "count": 48,
+      "percentage": 75,
+      "description": "Dominant study type; mostly single-patient descriptions"
+    },
+    "case_series": {
+      "count": 5,
+      "percentage": 6,
+      "description": "Typically 2-several patients"
+    },
+    "systematic_narrative_reviews": {
+      "count": 6,
+      "percentage": 4,
+      "description": "Summaries or literature syntheses"
+    },
+    "cohort_retrospective_observational": {
+      "count": 8,
+      "percentage": 12,
+      "description": "Larger-scale data (e.g., population cohort, single-center cohort)"
+    },
+    "mechanistic_translational": {
+      "count": 2,
+      "percentage": 3,
+      "description": "Experimental or preclinical mechanistic work"
+    }
+  },
+  
+  "population_level_studies": [
+    {
+      "country": "South Korea",
+      "cohort_size": 8400000,
+      "study_period": "2021-2023",
+      "key_findings": {
+        "cancers_with_associations": [
+          {"type": "Thyroid", "hazard_ratio": 1.35},
+          {"type": "Gastric", "hazard_ratio": 1.34},
+          {"type": "Colorectal", "hazard_ratio": 1.28},
+          {"type": "Lung", "hazard_ratio": 1.53},
+          {"type": "Breast", "hazard_ratio": 1.20},
+          {"type": "Prostate", "hazard_ratio": 1.69}
+        ]
+      }
+    },
+    {
+      "country": "Italy",
+      "location": "Pescara province",
+      "cohort_size": 296015,
+      "study_period": "June 2021 - December 2023",
+      "follow_up_months": 30,
+      "key_findings": {
+        "cancers_with_associations": [
+          {"type": "Colorectal", "hazard_ratio": 1.35},
+          {"type": "Breast", "hazard_ratio": 1.54},
+          {"type": "Bladder", "hazard_ratio": 1.62}
+        ],
+        "overall_cancer_hospitalization": {
+          "one_or_more_doses": 1.23,
+          "three_or_more_doses": 1.09
+        }
+      }
+    },
+    {
+      "country": "United States",
+      "cohort_size": 1300000,
+      "population": "US Military Service Members",
+      "study_period": "2017-2023",
+      "key_findings": {
+        "description": "50% increase in specified/unspecified and non-follicular NHL subtypes beginning in 2021",
+        "notable_cancers": ["Non-Hodgkin Lymphoma", "Mature T/NK-cell lymphomas"]
+      }
+    }
+  ],
+  
+  "exposure_types": {
+    "vaccination_only": {
+      "count": 56,
+      "percentage": 89
+    },
+    "infection_only": {
+      "count": 5,
+      "percentage": 7
+    },
+    "infection_with_prior_vaccination": {
+      "count": 7,
+      "percentage": 10
+    }
+  },
+  
+  "vaccine_distribution": {
+    "Pfizer_BioNTech_BNT162b2": {
+      "percentage": 56,
+      "type": "mRNA"
+    },
+    "Moderna_mRNA1273": {
+      "percentage": 25,
+      "type": "mRNA"
+    },
+    "Both_Pfizer_and_Moderna": {
+      "percentage": 5,
+      "type": "mRNA"
+    },
+    "AstraZeneca_ChAdOx1": {
+      "percentage": 5.8,
+      "type": "Adenovirus vector"
+    },
+    "Johnson_Johnson_Ad26": {
+      "percentage": 2.9,
+      "type": "Adenovirus vector"
+    },
+    "Sputnik_V": {
+      "percentage": 1.4,
+      "type": "Adenovirus vector"
+    },
+    "Inactivated_vaccines": {
+      "percentage": 2.6,
+      "type": "Inactivated"
+    },
+    "Unspecified": {
+      "percentage": 1.1,
+      "type": "Unknown"
+    }
+  },
+  
+  "geographic_distribution": {
+    "highest_reporting_countries": [
+      {"country": "Japan", "publications": 11},
+      {"country": "United States", "publications": 11},
+      {"country": "China", "publications": 7},
+      {"country": "Italy", "publications": 4}
+    ],
+    "other_countries": [
+      "Spain", "South Korea", "Saudi Arabia", "India", "Nigeria", "Brazil", 
+      "Turkey", "Singapore", "Lebanon", "Egypt", "Bulgaria", "Taiwan", 
+      "Ukraine", "Iran", "Russia", "Greece", "Austria", "Germany", "Poland"
+    ]
+  },
+  
+  "cancer_types": {
+    "lymphomas_leukemias": {
+      "percentage": 43,
+      "count": 30,
+      "subtypes": {
+        "T_cell_lymphomas": [
+          "CTCL (Cutaneous T-cell lymphoma)",
+          "LyP (Lymphomatoid papulosis)",
+          "ALCL (Anaplastic large-cell lymphoma)",
+          "AITL (Angioimmunoblastic T-cell lymphoma)",
+          "SPTCL (Subcutaneous panniculitis-like T-cell lymphoma)",
+          "TFH-type",
+          "PCGDTCL (Primary cutaneous gamma-delta T-cell lymphoma)",
+          "T-ALL (T-cell acute lymphoblastic leukemia)"
+        ],
+        "B_cell_lymphomas": [
+          "DLBCL (Diffuse large B-cell lymphoma)",
+          "Follicular lymphoma",
+          "MZL (Marginal zone lymphoma)",
+          "CLL (Chronic lymphocytic leukemia)",
+          "SLL (Small lymphocytic lymphoma)"
+        ],
+        "NK_cell_lymphomas": [
+          "ENKL (Extranodal NK/T-cell lymphoma, nasal-type)"
+        ]
+      }
+    },
+    "solid_tumors": {
+      "percentage": 41,
+      "count": 28,
+      "types": [
+        "Melanoma",
+        "Breast cancer",
+        "Lung cancer",
+        "Glioblastoma",
+        "Glial tumors",
+        "Sarcomas",
+        "Pancreatic cancer",
+        "Prostate cancer",
+        "Colon cancer",
+        "Adenocarcinomas"
+      ]
+    },
+    "virus_associated_cancers": {
+      "types": [
+        "Kaposi sarcoma (HHV-8)",
+        "Merkel cell carcinoma (MCV)",
+        "EBV-positive lymphomas"
+      ]
+    },
+    "other_unspecified": {
+      "percentage": 16,
+      "count": 11
+    }
+  },
+  
+  "clinical_patterns": {
+    "recurrent_themes": [
+      {
+        "theme": "Rapid progression",
+        "description": "Unusually rapid progression, recurrence, or reactivation of preexisting indolent or controlled disease"
+      },
+      {
+        "theme": "Atypical presentation",
+        "description": "Atypical or localized histopathologic findings, including involvement of vaccine injection sites or regional lymph nodes"
+      },
+      {
+        "theme": "Immunologic links",
+        "description": "Proposed immunologic links between acute infection or vaccination and tumor dormancy, immune escape, or microenvironmental shifts"
+      }
+    ],
+    "timing_patterns": {
+      "short_latency": "50% of cases within 2-4 weeks",
+      "early_onset": "Some cases as early as 7-14 days",
+      "longer_intervals": "Cases documented at 2-3 months, 4-6 months, and beyond 8 months",
+      "mean_onset": "Approximately 8-9 weeks reported in population studies"
+    }
+  },
+  
+  "case_examples": {
+    "lymphoma_cases": [
+      {
+        "case_number": 1,
+        "gender": "M",
+        "age": 67,
+        "time_to_onset": "1 day after 1st dose",
+        "diagnosis": "DLBCL",
+        "vaccine": "BNT162b2",
+        "lymphadenopathy": "Left axilla 6.0 cm",
+        "treatment": "Chemotherapy plus rituximab"
+      },
+      {
+        "case_number": 2,
+        "gender": "F",
+        "age": 80,
+        "time_to_onset": "2 days after 1st dose",
+        "diagnosis": "DLBCL",
+        "vaccine": "BNT162b2",
+        "lymphadenopathy": "Left axilla 4.1 cm",
+        "treatment": "Chemotherapy plus rituximab"
+      },
+      {
+        "case_number": 3,
+        "gender": "F",
+        "age": 58,
+        "time_to_onset": "7 days after 2nd dose",
+        "diagnosis": "DLBCL",
+        "vaccine": "BNT162b2",
+        "lymphadenopathy": "Left cervical area 4 cm",
+        "treatment": "Radical surgery plus radiotherapy"
+      },
+      {
+        "case_number": 4,
+        "gender": "M",
+        "age": 53,
+        "time_to_onset": "3 days after 1st dose",
+        "diagnosis": "Extranodal NK/T-cell lymphoma",
+        "vaccine": "BNT162b2",
+        "lymphadenopathy": "Erosive lesions upper lip up to 5 mm",
+        "treatment": "Chemotherapy plus radiotherapy"
+      },
+      {
+        "case_number": 5,
+        "gender": "M",
+        "age": 51,
+        "time_to_onset": "7 days after 1st dose",
+        "diagnosis": "EBV-positive DLBCL",
+        "vaccine": "ChAdox1 nCOV-19",
+        "lymphadenopathy": "Mediastinal mass 5 cm",
+        "treatment": "Rituximab"
+      },
+      {
+        "case_number": 6,
+        "gender": "F",
+        "age": 28,
+        "time_to_onset": "A few days after 1st dose",
+        "diagnosis": "SPTCL",
+        "vaccine": "Ad26 viral-vector-based",
+        "lymphadenopathy": "Injection site, upper arm",
+        "treatment": "Cyclosporine plus prednisone"
+      },
+      {
+        "case_number": 7,
+        "gender": "F",
+        "age": 80,
+        "time_to_onset": "1 day after 1st dose",
+        "diagnosis": "EMZL (Extranodal marginal zone lymphoma)",
+        "vaccine": "BNT162b2",
+        "lymphadenopathy": "Right temporal mass",
+        "treatment": "No treatment"
+      },
+      {
+        "case_number": 8,
+        "gender": "M",
+        "age": 76,
+        "time_to_onset": "10 days after booster dose",
+        "diagnosis": "PC-ALCL",
+        "vaccine": "mRNA-1273",
+        "lymphadenopathy": "Right arm upper-external surface 6 cm",
+        "treatment": "No treatment"
+      }
+    ],
+    "pancreatic_cancer": {
+      "cohort_size": 96,
+      "finding": "Repeated COVID-19 booster vaccinations associated with worse overall survival",
+      "marker": "High IgG4 levels induced by vaccination correlate with poor prognosis"
+    },
+    "sarcoma": {
+      "case": "73-year-old female",
+      "vaccine": "Moderna (2nd dose)",
+      "presentation": "6 cm mass in right upper arm near injection site (within 1 cm)",
+      "timing": "2-4 days after second dose",
+      "diagnosis": "High-grade sarcoma"
+    },
+    "kaposi_sarcoma": {
+      "case": "79-year-old male",
+      "vaccine": "ChAdOx1 nCov-19 (1st dose)",
+      "presentation": "Multiple reddish-blue papules on legs and feet",
+      "treatment": "Radiotherapy and doxorubicin chemotherapy"
+    },
+    "melanoma": {
+      "case_1": "49-year-old Indian male",
+      "vaccine": "BNT162b2 (2nd dose)",
+      "timing": "1 day after vaccination",
+      "presentation": "Rapidly progressive vision loss, necrotic uveal melanoma"
+    },
+    "glioblastoma": {
+      "case_1": "40-year-old man",
+      "timing": "3 weeks after COVID-19 vaccination",
+      "presentation": "Left hemiparesis, frontal lobe lesion"
+    },
+    "breast_cancer": {
+      "case": "85-year-old woman",
+      "vaccine": "Pfizer-BioNTech (6th dose)",
+      "timing": "Within one month after vaccination",
+      "presentation": "Skin metastasis in right chest, spike protein positive"
+    }
+  },
+
+  "timeline_series": {
+    "publication_references": {
+      "description": "Year distribution of references in the review; includes background and case/publication entries.",
+      "total_references": 187,
+      "unclassified_references": 8,
+      "year_counts": [
+        {"year": 2020, "count": 6},
+        {"year": 2021, "count": 14},
+        {"year": 2022, "count": 30},
+        {"year": 2023, "count": 38},
+        {"year": 2024, "count": 45},
+        {"year": 2025, "count": 32}
+      ]
+    },
+    "us_military_nhl_incidence": {
+      "description": "Annual incidence rates per 100,000 person-years for NHL subtypes (Figure 4, Russell et al. 2025).",
+      "source": "Defense Medical Surveillance System (DMSS)",
+      "notes": "Values need to be extracted from Figure 4 to render the timeline.",
+      "data": []
+    }
+  },
+  
+  "proposed_mechanisms": {
+    "immune_dysregulation": {
+      "cytokine_surge": [
+        "IL-6 (Interleukin-6)",
+        "TNF-α (Tumor necrosis factor alpha)",
+        "IL-1β (Interleukin-1 beta)"
+      ],
+      "timing": "1-3 days after vaccination",
+      "effects": [
+        "Activation of STAT3 pathway",
+        "NF-κB and AP-1 activation",
+        "Recruitment of immunosuppressive cells (MDSCs, TAMs, Tregs)",
+        "Promotion of tumor cell proliferation and angiogenesis"
+      ]
+    },
+    "spike_protein_biology": {
+      "persistence": "Weeks to years after vaccination",
+      "interactions": [
+        "ACE2 receptors",
+        "NRP-1 (Neuropilin-1)",
+        "Integrins",
+        "TLRs (Toll-like receptors)"
+      ],
+      "effects": [
+        "DNA damage",
+        "Modified p53 pathway",
+        "VEGF/NRP-1 signaling",
+        "Oxidative stress"
+      ],
+      "vaccine_specific": "Stabilized Spike-2P with K986P and V987P proline substitutions"
+    },
+    "DNA_contaminants": {
+      "source": "Manufacturing byproduct from in-vitro transcription",
+      "types": [
+        "Double-strand DNA (dsDNA)",
+        "Abortive RNAs",
+        "RNA:DNA hybrids"
+      ],
+      "concerns": [
+        "LNP encapsulation increases integration risk",
+        "Exceeds FDA/WHO limits for naked DNA",
+        "SV40 regulatory elements present in BNT2b vaccine",
+        "Potential for insertional mutagenesis",
+        "Genomic integration rates: 1-10% in vitro with lipid-based delivery"
+      ]
+    }
+  },
+  
+  "de_novo_vs_recurrence": {
+    "de_novo_cases": "Majority of publications",
+    "recurrence_cases": "Smaller subset",
+    "mixed_cohorts": 13,
+    "description": "Substantial proportion involves first-time cancer diagnoses temporally associated with COVID-19 vaccination or SARS-CoV-2 infection"
+  },
+  
+  "knowledge_gaps": [
+    "Long-term cancer incidence and mortality data (>42 days follow-up)",
+    "Molecular characterization of vaccine-host interactions",
+    "Distinction between tumor initiation vs promotion",
+    "Host susceptibility factors",
+    "LNP biodistribution in humans",
+    "Spike protein tissue distribution and persistence",
+    "Effects on tumor suppressor pathways",
+    "Integration of residual DNA fragments",
+    "Impact of cumulative exposure (multiple doses)",
+    "Interactions with latent oncogenic viruses"
+  ],
+  
+  "limitations": [
+    "Predominantly case reports and small series",
+    "Publication bias and selective reporting",
+    "Lack of control groups",
+    "Heterogeneous study designs and populations",
+    "Limited documentation of confounding factors",
+    "No standard MeSH indexing for this topic",
+    "Temporal association does not establish causation"
+  ],
+  
+  "visualization_recommendations": {
+    "key_charts": [
+      {
+        "type": "pie_chart",
+        "title": "Distribution of Cancer Types",
+        "data": "cancer_types"
+      },
+      {
+        "type": "bar_chart",
+        "title": "Geographic Distribution of Reports",
+        "data": "geographic_distribution"
+      },
+      {
+        "type": "horizontal_bar",
+        "title": "Vaccine Type Distribution",
+        "data": "vaccine_distribution"
+      },
+      {
+        "type": "timeline",
+        "title": "Time to Cancer Onset After Vaccination",
+        "data": "clinical_patterns.timing_patterns"
+      },
+      {
+        "type": "table",
+        "title": "Lymphoma Case Series",
+        "data": "case_examples.lymphoma_cases"
+      },
+      {
+        "type": "scatter_plot",
+        "title": "Hazard Ratios by Cancer Type (Population Studies)",
+        "data": "population_level_studies"
+      },
+      {
+        "type": "stacked_bar",
+        "title": "Study Types Distribution",
+        "data": "study_types"
+      },
+      {
+        "type": "sankey_diagram",
+        "title": "Exposure Type to Cancer Type Flow",
+        "data": "exposure_types + cancer_types"
+      },
+      {
+        "type": "heatmap",
+        "title": "Cancer Types by Country",
+        "data": "geographic_distribution + cancer_types"
+      },
+      {
+        "type": "network_diagram",
+        "title": "Proposed Mechanisms and Pathways",
+        "data": "proposed_mechanisms"
+      }
+    ]
+  }
+}
