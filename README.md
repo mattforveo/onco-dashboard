@@ -13,6 +13,12 @@ This project is a React dashboard that visualizes data from the 2026 Oncotarget 
 - **Case Studies**: Lymphoma case series table, onset timing, and demographic breakouts.
 - **Mechanisms**: Proposed biological pathways and knowledge gaps.
 
+## Screenshots
+![Overview](screenshots/overview.png)
+![Population Studies](screenshots/population.png)
+![Case Studies](screenshots/cases.png)
+![Mechanisms](screenshots/mechanisms.png)
+
 ## Tech Stack
 - React 19 + Vite
 - D3.js for charts
