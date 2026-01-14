@@ -1,16 +1,33 @@
-# React + Vite
+# COVID-19 Vaccination & Cancer Signal Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project is a React dashboard that visualizes data from the 2026 Oncotarget review "COVID vaccination and post-infection cancer signals: Evaluating patterns and potential biological mechanisms." It presents summary statistics, population-level study findings, case series details, and mechanistic hypotheses with interactive charts.
 
-Currently, two official plugins are available:
+## Data Sources
+- Review data extracted into `src/data/dashboard_data.json`.
+- Publication reference timeline derived from the review bibliography (2020-2025).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Pages
+- **Overview**: Key statistics, vaccine distribution, cancer type mix, study types, and reference timeline.
+- **Population Studies**: Hazard ratios from large cohorts (South Korea and Italy) with study context.
+- **Case Studies**: Lymphoma case series table, onset timing, and demographic breakouts.
+- **Mechanisms**: Proposed biological pathways and knowledge gaps.
 
-## React Compiler
+## Tech Stack
+- React 19 + Vite
+- D3.js for charts
+- Tailwind CSS
+- Framer Motion
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+The dev server runs at `http://localhost:5173`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Build
+```bash
+npm run build
+```
